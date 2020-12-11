@@ -18,3 +18,23 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+
+Head1
+=====
+
+.. toctree::
+   :maxdepth: 2
+
+    intro
+    strings
+
+Start tutorial
+==============
+
+-pip install Sphinx
+-sphinx-quickstart
+-sphinx-build -b html sourcedir builddir
+-make html
+
